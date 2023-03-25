@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOCO DE NOTAS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="container-plano-top">
+            <h1>LISTA DE TAREFAS</h1>
+            <div class="adicionar-item">
+                <input type="text" name="name" id="name" placeholder="TAREFA:">
+                <button type="submit" id="button-add">Adicionar</button>
+            </div>
+        </div>
+        <div class="container-plano-bottom">
+            <ul id="task-list">
+                <li class="task-box template hide">
+                    <span class="task-title">tarefa 1</span>
+                    <div class="button-task">
+                    <button id="task-done">>=</button>
+                    <button id="task-remover">-</button>
+                </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
